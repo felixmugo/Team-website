@@ -9,8 +9,8 @@
   --color-surface: #ffffff;
   --color-text: #1c2430;
   --color-muted: #5a6474;
-  --color-primary: #0f6e6e;
-  --color-primary-dark: #0a5050;
+  --color-primary: #155E75;
+  --color-primary-dark: #134E4A;
   --color-on-primary: #ffffff;
   --color-border: #dde1e6;
   --color-error: #b3261e;
@@ -34,9 +34,9 @@ body.dark {
   --color-surface: #1a212b;
   --color-text: #e7ebf0;
   --color-muted: #a2abb9;
-  --color-primary: #4fc1c1;
-  --color-primary-dark: #83d8d8;
-  --color-on-primary: #0b1f1f;
+  --color-primary: #7DD3FC;
+  --color-primary-dark: #A7F3D0;
+  --color-on-primary: #102A35;
   --color-border: #2b3340;
   --color-error: #ff8a80;
   --color-success: #7ddc97;
@@ -471,4 +471,11 @@ textarea[aria-invalid="true"] {
   *::after {
     transition: none !important;
   }
+}
+
+.card img.avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
 }
